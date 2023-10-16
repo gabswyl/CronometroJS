@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2, h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 5px;
+    font-size: 36px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+
+.border {
+    background-color: rgb(92, 92, 92);
+    padding: 20px 50px;
+    border-radius: 15px;
+}
+
+.botoes {
+    gap: 20px;
+    display: flex;
+}
+
+.botao {
+    margin-top: 30px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: #1c5a1e;
+}
